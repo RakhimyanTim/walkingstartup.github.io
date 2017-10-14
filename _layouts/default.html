@@ -5,7 +5,6 @@
 		<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320">
-		
 		{% include seo.html %}
 		{% feed_meta %}
 		{% include analytics.html %}
@@ -33,7 +32,6 @@
 
 					<ul class="user">
 						
-
 					</ul>
 				</div>
 
@@ -53,13 +51,12 @@
 							<p class="sub-text">by {{ author.name }}</p>
 						{% endif %}
 					{% endif %}
-					
 
 					{% if page.header_shares %}
 						<div class="share-options">
 							{% assign url = page.url | prepend: site.url | cgi_escape %}
 							<a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ url }}" target="_blank">{% include social-icon.html icon="Facebook" %} Share</a>
-							<a class="share-btn twitter" href="https://twitter.com/intent/tweet?url={{ url }}&amp;text={{ page.share_text | cgi_escape }}&amp;via=walkingstartup" target="_blank">{% include social-icon.html icon="Twitter" %} Tweet</a>
+							<a class="share-btn twitter" href="https://twitter.com/intent/tweet?url={{ url }}&amp;text={{ page.share_text | cgi_escape }}&amp;via=WalkingStartup" target="_blank">{% include social-icon.html icon="Twitter" %} Tweet</a>
 							<a class="share-btn google-plus" href="https://plus.google.com/share?url={{ url }}" target="_blank">{% include social-icon.html icon="Google Plus" %} Share</a>
 						</div>
 					{% endif %}
@@ -88,8 +85,10 @@
 			</div>
 
 			<div class="legal-line">
-				<p class="container" style="text-align: center;">
-					&copy; {{ site.time | date: '%Y' }} Walking Startup
+				<p class="container">
+					&copy; {{ site.time | date: '%Y' }} Walking Startup &bull;
+					<a href="">Условия</a> &amp;
+					<a href="">Конфиденциальность</a>
 				</p>
 			</div>
 		</footer>

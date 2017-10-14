@@ -1,0 +1,44 @@
+
+
+- title: Компания
+  links:
+    - name: Главная
+      link: /
+    - name: Цены
+      link: /pricing/
+    - name: Блог
+      link: /blog/
+
+
+- title: Прайс
+  links:
+
+- title: Решения
+  links:
+
+
+- title: Соцсети
+  links:
+    - name: Твиттер
+      link: https://twitter.com/walkingstartup
+      social_icon: Twitter
+      new_window: true
+    - name: Фейсбук
+      link: https://www.facebook.com/walkingstartup
+      social_icon: Facebook
+      new_window: true
+    - name: Гугл+
+      link: https://plus.google.com/+walkingstartup
+      social_icon: Google Plus
+      new_window: true
+    - name: Ютуб
+      link: https://www.youtube.com/c/walkingstartup
+      social_icon: YouTube
+      new_window: true
+    - name: Линкедин
+      link: https://www.linkedin.com/walkingstartup
+      social_icon: LinkedIn
+      new_window: true
+- title: Помощь
+  links:
+

@@ -1,0 +1,87 @@
+title: Карманный акселератор
+description: Walking Startup помогает запустить ИТ-бизнес быстро, без кода и вложений.
+url: https://walkingstartup.ru
+disqus_shortname: walkingstartup
+
+logo: https://walkingstartup.ru/img/walking-startup-logo.png
+twitter:
+  username: walkingstartup
+
+facebook:
+  publisher: walkingstartup
+
+social:
+  links: 
+
+google_site_verification: 
+company:
+  founded: ноябрь 2017
+  team_size: 1
+  address: 450001, Пр. Октября,2 (Уфа, Росссия)
+  
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-archives
+
+paginate: 10
+paginate_path: "blog/:num/"
+blog_name: 
+blog_description: 
+permalink: pretty
+timezone: Asia/Yekaterinburg
+
+collections:
+  gallery:
+    name: Gallery
+    output: false
+  experts:
+    name: Партнеры
+    output: false
+  staff:
+    name: Команда
+    _hide_content: true
+    output: false
+  authors:
+    name: Авторы
+    output: false
+  customers:
+    name: Проекты
+    output: true
+    permalink: /projects/:name/
+defaults:
+  - scope:
+      path: ""
+      type: "customers"
+    values:
+      layout: "customer"
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      is_post: true
+      layout: post
+
+development:
+  google_analytics_key: "UA-105772480-1"
+  google_maps_embed_api_key: "AIzaSyDsaoHNx7PM4ICTy3BOnP80WIbfbayCM3E"
+  keen:
+    project_id: "55cbfe8490e4bd146ec3bf27"
+    write_key: "f08246251e08b254e6611777a889f6094b596e58b08beb716ab3664540dbdf153a9054bf8c8cd5062d8f5677eb15220c9dddc49997984dec05aa0ac4cdef3f5c460e90350d898d0efef8a0e26350c2b471b215341517247e88aa7b666173aff84751f8a7ee9c7a76dbd7ba617a043a02"
+
+staging:
+  google_analytics_key: "UA-105772480-1"
+  google_maps_embed_api_key: "AIzaSyDsaoHNx7PM4ICTy3BOnP80WIbfbayCM3E"
+  keen:
+    project_id: "55cbfd9590e4bd13ca5c363c"
+    write_key: "4467f64b4a622def5ee5830a3aadb1ad9c8de7a0d9a3ac8256d008ec1c86736fb53c4757611417eb40e614cd0f8ae8abdf82625d9321882bb196c6166190443dbf31722d15d72236dfe30aceb119579fc397bb2d94a5af271b67bd54ac6e1bbce34c1bb51ab235a3fe1a3575c681fc43"
+
+production:
+  google_analytics_key: "UA-105772480-1"
+  google_maps_embed_api_key: "AIzaSyDsaoHNx7PM4ICTy3BOnP80WIbfbayCM3E"
+  keen:
+    project_id: "55cbfe8490e4bd146ec3bf27"
+    write_key: "f08246251e08b254e6611777a889f6094b596e58b08beb716ab3664540dbdf153a9054bf8c8cd5062d8f5677eb15220c9dddc49997984dec05aa0ac4cdef3f5c460e90350d898d0efef8a0e26350c2b471b215341517247e88aa7b666173aff84751f8a7ee9c7a76dbd7ba617a043a02"

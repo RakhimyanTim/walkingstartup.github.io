@@ -18,7 +18,7 @@
 
 - title: Соцсети
   links:
-    - name: Вконакте
+    - name: Вконтакте
       link: https://vk.com/walkingstartup
       social_icon: Vkontakte
       new_window: true

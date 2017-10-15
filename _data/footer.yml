@@ -1,5 +1,7 @@
 - title: Компания
   links:
+    - name: Главная
+      link: /
     - name: Цены
       link: /pricing/
     - name: Блог
@@ -11,7 +13,8 @@
 
 - title: Решения
   links:
-
+    - name: CustDev
+      link: /custdev/
 
 - title: Соцсети
   links:

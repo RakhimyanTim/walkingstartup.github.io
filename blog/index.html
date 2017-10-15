@@ -1,0 +1,63 @@
+---
+layout: default
+title: Блог
+description: Оставайтесь в курсе о мероприятиях, проводимых Walking Startup.
+header: Блог
+header_subtext: Оставайтесь в курсе о мероприятиях, проводимых Walking Startup
+sitemap:
+  changefreq: daily
+  priority: 0.8
+---
+
+<section>
+	<div class="container text-container">
+		<ul class="blog-posts">
+			{% for post in paginator.posts %}
+				<li class="blog-post">
+					<div class="post-author-small">
+						{% if post.author %}
+							{% assign author = site.authors | where: "author", post.author | limit: 1 %}
+
+							{% if author and author[0] %}
+								<img src="{{ author[0].image_path }}" alt="A stunning photo of {{ author[0].name }}" width="200" height="200">
+							{% else %}
+								<img src="/img/authors/{{ post.author }}.jpg" alt="A stunning photo of {{post.author}}" width="200" height="200">
+							{% endif %}
+						{% endif %}
+
+						<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+						<p class="post-details">{{ post.category }} <span class="date">{{ post.date | date: "%B %d, %Y" }}</span></p>
+					</div>
+
+					<p>
+						{% if post.content contains '<!-- excerpt stop -->' %}
+							{{ post.content | split:'<!-- excerpt stop -->' | first }}
+						{% else %}
+							{{ post.excerpt }}
+						{% endif %}
+					</p>
+
+					<a href="{{ post.url }}" class="btn small-btn">Узнать больше  &rarr;</a>
+				</li>
+			{% endfor %}
+		</ul>
+
+		<hr>
+		<!-- Pagination links -->
+		<div class="pagination">
+			{% if paginator.previous_page %}
+				<a href="{{ paginator.previous_page_path }}" class="previous btn">&larr; Новые посты</a>
+			{% else %}
+				<span class="previous">Нет Newer новых постов</span>
+			{% endif %}
+
+			<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+			{% if paginator.next_page %}
+				<a href="{{ paginator.next_page_path }}" class="next btn">Ранние посты &rarr;</a>
+			{% else %}
+				<span class="next">Нет ранних постов</span>
+			{% endif %}
+		</div>
+	</div>
+</section>

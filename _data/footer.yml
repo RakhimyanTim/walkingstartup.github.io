@@ -18,6 +18,10 @@
 
 - title: Соцсети
   links:
+    - name: Вконакте
+      link: https://vk.com/walkingstartup
+      social_icon: Vkontakte
+      new_window: true
     - name: Твиттер
       link: https://twitter.com/walkingstartup
       social_icon: Twitter

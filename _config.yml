@@ -47,16 +47,16 @@ collections:
   authors:
     name: Авторы
     output: false
-  vacancies:
-    name: Вакансии
+  customers:
+    name: Case Studies
     output: true
-    permalink: /vacancies/:name/
+    permalink: /case-studies/:name/
 defaults:
   - scope:
       path: ""
-      type: "vacancies"
+      type: "customers"
     values:
-      layout: "vacancy"
+      layout: "customer"
   -
     scope:
       path: ""

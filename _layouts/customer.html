@@ -3,15 +3,8 @@ layout: default
 ---
 <header class="{{ page.name | slugify }}">
 	<div class="container">
-		<h2>CloudCannon Case Study: <a href="{{ page.site }}">
-			{% if page.logo.width %}
-				<img width="{{ page.logo.width }}" src="{{ page.logo.path }}" alt="{{ page.name }}" />
-			{% else %}
-				<img width="250" src="{{ page.logo.path }}" alt="{{ page.name }}" />
-			{% endif %}
-		</a></h2>
+		<h2>CloudCannon Case Study: <a href="{{ page.site }}"></a></h2>
 		<h3>{{ page.tagline }}</h3>
-		<p><a href="{{ page.site }}" target="_blank">View {{ page.site_name }} &rarr;</a></p>
 	</div>
 </header>
 
@@ -32,7 +25,7 @@ layout: default
 	<div class="container">
 		<h2>Join {{ page.name }} and use CloudCannon with your team</h2>
 		<p>
-			<a href="https://app.cloudcannon.com/users/sign_up" class="btn btn-primary btn-large btn-block btn-centered">Sign up now</a>
+			<a href="#" class="btn btn-primary btn-large btn-block btn-centered">Sign up now</a>
 		</p>
 	</div>
 </section>

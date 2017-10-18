@@ -28,55 +28,6 @@ layout: default
 	</div>
 </section>
 
-{% if page.testimonial %}
-	<blockquote class="testimonial">
-			<div class="container text-container">
-				<p class="quote">{{ page.testimonial.text }}</p>
-				<div class="author">
-					<img src="{{page.testimonial.image_path}}">
-					<p>
-						<span>{{ page.testimonial.name }}</span>
-						<br>
-						{{ page.testimonial.work_title }}
-					</p>
-				</div>
-			</div>
-	</blockquote>
-{% endif %}
-
-<section>
-	<div class="container">
-		{% include customer-slideshow.html name="overview" slides=page.overview %}
-	</div>
-</section>
-
-<section style="text-align: center; padding-bottom: 0;">
-	<div class="container">
-		<h2>CloudCannon Features Used</h2>
-	</div>
-</section>
-
-{% for feature in page.features %}
-	<section class="{% cycle '', 'alternate' %}">
-		<div class="container">
-			<div class="text">
-				<h3>{{ feature.name }}</h3>
-				{{ feature.description | markdownify }}
-			</div>
-			<div class="image">
-				<img class="screenshot" src="{{ feature.image_path }}" width="550" alt="{{ feature.name }}" />
-			</div>
-		</div>
-	</section>
-{% endfor %}
-
-<section class="alternate">
-	<div class="container text-container">
-		<h2>Summary</h2>
-		{{ page.summary | markdownify }}
-	</div>
-</section>
-
 <section class="bright-section centered">
 	<div class="container">
 		<h2>Join {{ page.name }} and use CloudCannon with your team</h2>

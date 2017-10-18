@@ -28,8 +28,8 @@ gems:
 
 paginate: 10
 paginate_path: "blog/:num/"
-blog_name: 
-blog_description: 
+blog_name: Блог
+blog_description: Оставайтесь в курсе о мероприятиях, проводимых Walking Startup
 permalink: pretty
 timezone: Asia/Yekaterinburg
 

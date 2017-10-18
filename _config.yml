@@ -48,7 +48,7 @@ collections:
     name: Авторы
     output: false
   vacancies:
-    name: 
+    name: Вакансии
     output: true
     permalink: /vacancies/:name/
 defaults:

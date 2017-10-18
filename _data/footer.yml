@@ -6,8 +6,8 @@
       link: /pricing/
     - name: Блог
       link: /blog/
-    - name: Case Studies
-      link: /case-studies/
+    - name: Стать партнером
+      link: https://partner.walkingstartup.ru
 
 
 - title: Прайс
@@ -17,8 +17,6 @@
   links:
     - name: CustDev
       link: /custdev/
-    - name: Стать партнером
-      link: /https://partner.walkingstartup.ru/
 
 - title: Соцсети
   links:

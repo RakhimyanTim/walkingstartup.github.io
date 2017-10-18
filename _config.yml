@@ -47,16 +47,16 @@ collections:
   authors:
     name: Авторы
     output: false
-  customers:
-    name: Проекты
+  vacancies:
+    name: 
     output: true
-    permalink: /projects/:name/
+    permalink: /vacancies/:name/
 defaults:
   - scope:
       path: ""
-      type: "customers"
+      type: "vacancies"
     values:
-      layout: "customer"
+      layout: "vacancy"
   -
     scope:
       path: ""

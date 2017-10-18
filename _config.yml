@@ -34,12 +34,6 @@ permalink: pretty
 timezone: Asia/Yekaterinburg
 
 collections:
-  gallery:
-    name: Gallery
-    output: false
-  experts:
-    name: Партнеры
-    output: false
   staff:
     name: Команда
     _hide_content: true
@@ -47,16 +41,7 @@ collections:
   authors:
     name: Авторы
     output: false
-  customers:
-    name: Case Studies
-    output: true
-    permalink: /case-studies/:name/
 defaults:
-  - scope:
-      path: ""
-      type: "customers"
-    values:
-      layout: "customer"
   -
     scope:
       path: ""

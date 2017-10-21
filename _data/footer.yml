@@ -7,8 +7,9 @@
     - name: Блог
       link: /blog/
     - name: Стать партнером
-      link: https://partner.walkingstartup.ru
-
+      link: https://partner.walkingstartup.ru/
+    - name: Innov-a-thon
+      link: https://innovathon.walkingstartup.ru/
 
 - title: Прайс
   links:

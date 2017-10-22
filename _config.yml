@@ -39,9 +39,6 @@ permalink: pretty
 timezone: Asia/Yekaterinburg
 
 collections:
-   experts:
-    name: Experts
-    output: false
   staff:
     name: Команда
     _hide_content: true

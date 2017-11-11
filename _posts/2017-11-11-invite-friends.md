@@ -3,7 +3,7 @@ title: Инвайты в Walking Startup
 header: Новая функция "Инвайты" в приложении Walking Startup
 category: Функции
 author: rakhimyan
-permalink: /features/2017/11/11/ufa-school-83.html
+permalink: /features/2017/11/11/invite-friends.html
 ---
 Вы, друзья, так просили об этом, теперь получайте. Вот оно! Мы так рады сообщить вам о новой функции "Инвайты" в приложении Walking Startup. 
 

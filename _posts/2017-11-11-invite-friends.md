@@ -3,7 +3,7 @@ title: Инвайты в Walking Startup
 header: Новая функция "Инвайты" в приложении Walking Startup
 category: Функции
 author: rakhimyan
-image: /images/blog/invite-friends/invite.png
+image: /img/blog/invite-friends/invite.png
 image_featured: true
 permalink: /features/2017/11/11/invite-friends.html
 ---

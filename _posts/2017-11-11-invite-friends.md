@@ -1,6 +1,6 @@
 ---
 title: Новая функция "Инвайты"
-header: Новая функция "Инвайты" в приложении Walking Startup
+header: Новая функция "Инвайты"
 category: Функции
 author: rakhimyan
 image: /img/blog/invite-friends/invite.png

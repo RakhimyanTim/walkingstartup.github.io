@@ -5,7 +5,7 @@ category: Руководство
 author: rakhimyan
 image: /img/blog/become-a-partner/partner.jpg
 image_featured: true
-permalink: /tutorials/2017/13/11/become-a-partner.html
+permalink: /tutorials/2017/11/13/become-a-partner.html
 ---
 Товарищи, давайте будем честными (хотя бы перед самим собой). Каждый из нас __"хочет жить с удобствами"__.  И мы прекрасно понимаем это. Поэтому Walking Startup не ограничивается тем, что __тестирует идеи__ и __запускает ИТ-стартапы__, но и щедро делиться  с теми, кто помогает в этом.
 

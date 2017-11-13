@@ -7,7 +7,7 @@ image: /img/blog/become-a-partner/partner.jpg
 image_featured: true
 permalink: /tutorials/2017/11/13/become-a-partner.html
 ---
-Пересекаетесь со студентами или школьниками? Расскажите им о сервисе. У них много идей, а с помощью __Walking Startup__ вам будет несложно заработать на этом деньги.
+Пересекаетесь со студентами или школьниками? Расскажите им о [сервисе](https://walkingstartup.ru/). У них много идей, а с помощью __Walking Startup__ вам будет несложно заработать на этом деньги.
 
 ![Includes](/img/blog/become-a-partner/partner.jpg)
 

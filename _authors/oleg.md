@@ -1,5 +1,5 @@
 ---
-image_path: /img/team/oleg.png
+image_path: /img/team/oleg.jpg
 twitter_username: 
 author: oleg
 name: Олег Шерыхалин

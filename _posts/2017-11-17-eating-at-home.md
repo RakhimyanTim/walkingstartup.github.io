@@ -2,7 +2,7 @@
 title: Готовим дома
 header: Готовим дома
 category: Идея
-author: oleg
+author: rakhimyan
 image: /img/blog/eating-at-home/grunny.jpg
 image_featured: true
 permalink: /tutorials/2017/11/13/eating-at-home.html

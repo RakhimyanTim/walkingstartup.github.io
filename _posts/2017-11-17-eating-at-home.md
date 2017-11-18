@@ -5,7 +5,7 @@ category: Идея
 author: rakhimyan
 image: /img/blog/eating-at-home/grunny.jpg
 image_featured: true
-permalink: /tutorials/2017/11/13/eating-at-home.html
+permalink: /ideas/2017/11/13/eating-at-home.html
 ---
 Правильно питаться всегда было трудно. Кажется, все упирается в грамотную организацию приготовления еды. Есть несколько вариантов, как это сейчас решается.
 

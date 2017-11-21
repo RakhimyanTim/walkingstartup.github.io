@@ -7,7 +7,7 @@ image: /img/blog/fitness-flow/fitness.jpg
 image_featured: true
 permalink: /ideas/2017/11/21/fitness-flow.html
 ---
-Друзья, с большой радостью готов поделиться ещё одним проектом из нашей корзины. Этой __Fitness Flow__! 
+Друзья, с большой радостью готов поделиться ещё одним проектом из нашей корзины - __Fitness Flow__! 
 
 ![Includes](/img/blog/fitness-flow/fitness.jpg)
 
